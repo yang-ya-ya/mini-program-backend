@@ -7,7 +7,7 @@ import time
 app = Flask(__name__)
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')  # 从环境变量读取
 REPO_OWNER = "yang-ya-ya"              # 替换为你的GitHub用户名
-REPO_NAME = "image-storage"               # 仓库名
+REPO_NAME = "mini-program-backend"               # 仓库名
 BRANCH = "main"                           # 分支名
 
 @app.route('/upload', methods=['POST'])
